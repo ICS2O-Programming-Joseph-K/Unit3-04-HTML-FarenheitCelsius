@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <!-- Metadata for this site -->
+    <meta charset="utf-8">
+    <meta name="description" content="Fahrenheit to Celsius">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Joseph Kwon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon for this site -->
+    <link rel="apple-touch-icon.png" sizes="180x180" href="./fav_index/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+
+    <!-- title of site -->
+    <title>Fahrenheit to Celsius</title>
+    
+  </head>
+  <body>
+
+    <!-- receives and gives data -->
+    <link rel="stylesheet" href="./css/style.css">
+   <script src="./js/script.js"></script>
+
+    <!-- largely displayed font -->
+    <h1>Fahrenheit to Celsius</h1>
+
+    <!-- Text fields for user input, collects data -->
+    <p>
+      <h3>Enter fahrenheit:</h3>
+      <form action="javascript:enterClicked()">
+        <label for="F">Fahrenheit:</label>
+        <input type="number" id="F" step="any" placeholder="Enter fahrenheit"><br><br>
+        <input type="submit" value="Calculate Celsius">
+      </form>
+    </p>
+		<!-- Create a space where the user information will be displayed -->
+    <div id="user-info">
+    </div>
+      
+    <br>
+      
+  
+    
+  </body>
+</html>
